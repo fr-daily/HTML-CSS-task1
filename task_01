@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task_01</title>
+</head>
+<body>
+  <h1>网站一级标题</h1>
+  <nav>
+    <a>导航链接1</a>
+    <a>导航链接2</a>
+    <a>导航链接3</a>
+    <a>导航链接4</a>
+  </nav>
+  
+  <article>
+    <h2>第1篇文章一级标题</h2>
+    <h3>第1篇文章二级标题</h3>
+    <div><span>文章作者</span><span>文章发表时间</span></div>
+    <p>这是一个段落<a href="http://baidu.com">这是一个链接，直接在当前窗口跳转</a></p>
+    <div><img src="" alt=""></div>
+    <p>这是一个段落<a href="http://baidu.com" target="_blank">这是一个链接，在新窗口中打开链接</a></p>
+  </article>
+  
+  <article>
+    <h2>第2篇文章一级标题</h2>
+    <h3>第2篇文章二级标题</h3>
+    <div><span>文章作者</span><span>文章发表时间</span></div>
+    <p>这是一个段落<a href="http://baidu.com" target="_blank">这是一个链接，在新窗口中打开链接</a></p>
+    <div><img src="" alt=""></div>
+    <ul>
+      <li>列表项目1</li>
+      <li>列表项目2</li>
+      <li>列表项目3</li>
+      <li>列表项目4</li>
+    </ul>
+    <div>
+      <p>图片</p>
+      <ul>
+        <li><img src="" alt=""></li>
+        <li><img src="" alt=""></li>
+        <li><img src="" alt=""></li>
+        <li><img src="" alt=""></li>
+      </ul>
+    </div>
+  </article>
+  
+  <article>
+    <h2>第3篇文章一级标题</h2>
+    <h3>第3篇文章二级标题</h3>
+    <div><span>文章作者</span><span>文章发表时间</span></div>
+    <p>下面有一个带有标题的表格</p>
+    <table border="1">
+      <caption>表格标题</caption>
+      <tr>
+        <th>表头</th>
+        <th>表头</th>
+        <th>表头</th>
+      </tr>
+      <tr>
+        <td>单元格</td>
+        <td>单元格</td>
+        <td><a>操作</a></td>
+      </tr>
+      <tr>
+        <td>单元格</td>
+        <td>单元格</td>
+        <td><a>操作</a></td>
+      </tr>
+      <tr>
+        <td>总计</td>
+        <td colspan="2">1000</td>
+      </tr>
+    </table>
+  </article>
+  
+  <aside>
+    <h4>这是侧栏的标题</h4>
+    <form>
+      <p>请输入邮箱地址：<input type="text" value="这是一个文本输入框"/></p>
+      <p><input type="text" value="邮箱地址请按照要求格式输入" disabled="true"/></p>
+      <p>请输入密码：<input type="password"/>
+      请重复输入密码：<input type="password"/></p>
+      <p><input type="text" value="密码为6-16位英文数字" disabled="true"/></p>
+      <p>性格：<input name="sex" type="radio" value="male">男<input name="sex" type="radio" value="female">女</p>
+      <p>城市：
+        <select>
+          <option value="beijing" selected="selected">北京</option>
+          <option value="shanghai">上海</option>
+        </select>
+      </p>
+      <p>爱好：
+        <input type="checkbox" name="hobby" value="sports">运动
+        <input type="checkbox" name="hobby" value="art">艺术
+        <input type="checkbox" name="hobby" value="science">科学
+      </p>
+      <p>个人描述：
+        <textarea value="这是一个多行输入框，输入您对自己的描述"></textarea>
+      </p>
+      <input type="submit" value="确认提交">
+    </form>
+  </aside>
+</body>
+</html>
